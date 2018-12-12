@@ -23,10 +23,10 @@ var command = {
   },
   run: function (options, done) {
     var OS = require("os");
-    var Config = require("truffle-config");
-    var Contracts = require("truffle-workflow-compile");
-    var Resolver = require("truffle-resolver");
-    var Artifactor = require("truffle-artifactor");
+    var Config = require("@dexon-foundation/truffle-config");
+    var Contracts = require("@dexon-foundation/truffle-workflow-compile");
+    var Resolver = require("@dexon-foundation/truffle-resolver");
+    var Artifactor = require("@dexon-foundation/truffle-artifactor");
     var Migrate = require("truffle-migrate");
     var Environment = require("../environment");
     var temp = require("temp");

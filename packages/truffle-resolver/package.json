@@ -1,5 +1,5 @@
 {
-  "name": "truffle-resolver",
+  "name": "@dexon-foundation/truffle-resolver",
   "version": "4.0.4",
   "description": "Resolve contract dependencies given multiple configurable dependency sources",
   "main": "index.js",
@@ -21,8 +21,8 @@
   },
   "homepage": "https://github.com/trufflesuite/truffle-resolver#readme",
   "dependencies": {
+    "@dexon-foundation/truffle-contract": "^3.0.6",
     "async": "2.6.1",
-    "truffle-contract": "^3.0.6",
     "truffle-expect": "^0.0.4",
     "truffle-provisioner": "^0.1.1"
   },

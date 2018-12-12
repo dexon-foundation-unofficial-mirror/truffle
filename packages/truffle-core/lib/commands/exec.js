@@ -15,10 +15,10 @@ var command = {
     }
   },
   run: function (options, done) {
-    var Config = require("truffle-config");
-    var Contracts = require("truffle-workflow-compile");
+    var Config = require("@dexon-foundation/truffle-config");
+    var Contracts = require("@dexon-foundation/truffle-workflow-compile");
     var ConfigurationError = require("../errors/configurationerror");
-    var Require = require("truffle-require");
+    var Require = require("@dexon-foundation/truffle-require");
     var Environment = require("../environment");
     var path = require("path");
     var OS = require("os");

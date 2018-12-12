@@ -2,7 +2,7 @@ var EPMSource = require("./epm");
 var NPMSource = require("./npm");
 var FSSource = require("./fs");
 var whilst = require("async/whilst");
-var contract = require("truffle-contract");
+var contract = require("@dexon-foundation/truffle-contract");
 var expect = require("truffle-expect");
 var provision = require("truffle-provisioner");
 

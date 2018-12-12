@@ -1,4 +1,4 @@
-var Schema = require("truffle-contract-schema");
+var Schema = require("@dexon-foundation/truffle-contract-schema");
 var expect = require("truffle-expect");
 var fs = require("fs-extra");
 var path = require("path");

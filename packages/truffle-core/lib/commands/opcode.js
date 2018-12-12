@@ -8,10 +8,10 @@ var command = {
     }
   },
   run: function (options, done) {
-    var Config = require("truffle-config");
+    var Config = require("@dexon-foundation/truffle-config");
     var TruffleError = require("truffle-error");
-    var Contracts = require("truffle-workflow-compile");
-    var CodeUtils = require("truffle-code-utils");
+    var Contracts = require("@dexon-foundation/truffle-workflow-compile");
+    var CodeUtils = require("@dexon-foundation/truffle-code-utils");
 
     if (options._.length == 0) {
       return done(new TruffleError("Please specify a contract name."));

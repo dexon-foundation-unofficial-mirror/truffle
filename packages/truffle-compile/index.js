@@ -8,7 +8,7 @@ var Profiler = require("./profiler");
 var CompileError = require("./compileerror");
 var expect = require("truffle-expect");
 var find_contracts = require("truffle-contract-sources");
-var Config = require("truffle-config");
+var Config = require("@dexon-foundation/truffle-config");
 var debug = require("debug")("compile");
 
 // Most basic of the compile commands. Takes a hash of sources, where
@@ -33,11 +33,11 @@ var compile = function(sources, options, callback) {
 
   expect.options(options, [
     "contracts_directory",
-    "solc"
+    "@dexon-foundation/dsolc"
   ]);
 
   // Load solc module only when compilation is actually required.
-  var solc = require("solc");
+  var solc = require("@dexon-foundation/dsolc");
   // Clean up after solc.
   var listeners = process.listeners("uncaughtException");
   var solc_listener = listeners[listeners.length - 1];
@@ -165,7 +165,7 @@ var compile = function(sources, options, callback) {
         deployedBytecode: "0x" + contract.evm.deployedBytecode.object,
         unlinked_binary: "0x" + contract.evm.bytecode.object, // deprecated
         compiler: {
-          "name": "solc",
+          "name": "dsolc",
           "version": solc.version()
         }
       }

@@ -1,8 +1,8 @@
 var assert = require("chai").assert;
-var Schema = require("truffle-contract-schema");
+var Schema = require("@dexon-foundation/truffle-contract-schema");
 var temp = require("temp").track();
 var path = require("path");
-var solc = require("solc");
+var solc = require("@dexon-foundation/dsolc");
 
 // Clean up after solidity. Only remove solidity's listener,
 // which happens to be the first.
@@ -10,8 +10,8 @@ process.removeListener("uncaughtException", process.listeners("uncaughtException
 
 var fs = require("fs");
 var requireNoCache = require("require-nocache")(module);
-var debug = require("debug")("ganache-core");
-var TestRPC = require("ganache-core");
+var debug = require("debug")("@dexon-foundation/ganache-core");
+var TestRPC = require("@dexon-foundation/ganache-core");
 var BlockchainUtils = require("truffle-blockchain-utils");
 var contract = require("../");
 var Web3 = require("web3");

@@ -1,5 +1,5 @@
 {
-  "name": "truffle-require",
+  "name": "@dexon-foundation/truffle-require",
   "version": "1.0.7",
   "description": "Require and execute a Javascript module within a Truffle context",
   "main": "require.js",
@@ -26,8 +26,8 @@
     "mocha": "5.2.0"
   },
   "dependencies": {
+    "@dexon-foundation/truffle-config": "^1.0.6",
     "original-require": "1.0.1",
-    "truffle-config": "^1.0.6",
     "truffle-expect": "^0.0.4",
     "web3": "0.20.6"
   },

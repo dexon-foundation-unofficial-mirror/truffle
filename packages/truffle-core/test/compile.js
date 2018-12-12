@@ -1,8 +1,8 @@
 var assert = require("chai").assert;
-var Box = require("truffle-box");
-var Contracts = require("truffle-workflow-compile");
-var Artifactor = require("truffle-artifactor");
-var Resolver = require("truffle-resolver");
+var Box = require("@dexon-foundation/truffle-box");
+var Contracts = require("@dexon-foundation/truffle-workflow-compile");
+var Artifactor = require("@dexon-foundation/truffle-artifactor");
+var Resolver = require("@dexon-foundation/truffle-resolver");
 var path = require("path");
 var fs = require("fs");
 

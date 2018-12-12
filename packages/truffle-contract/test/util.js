@@ -1,5 +1,5 @@
-var debug = require("debug")("ganache-core");
-var ganache = require("ganache-core");
+var debug = require("debug")("@dexon-foundation/ganache-core");
+var ganache = require("@dexon-foundation/ganache-core");
 var Web3 = require("web3");
 
 var log = {

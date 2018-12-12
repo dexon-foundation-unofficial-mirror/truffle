@@ -963,7 +963,7 @@ var contract = (function(module) {
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
 },{"./statuserror.js":79,"ethjs-abi":51,"truffle-blockchain-utils":66,"web3":45}],2:[function(require,module,exports){
-var Schema = require("truffle-contract-schema");
+var Schema = require("@dexon-foundation/truffle-contract-schema");
 var Contract = require("./contract.js");
 
 var contract = function(options) {
@@ -980,7 +980,7 @@ if (typeof window !== "undefined") {
   window.TruffleContract = contract;
 }
 
-},{"./contract.js":1,"truffle-contract-schema":67}],3:[function(require,module,exports){
+},{"./contract.js":1,"@dexon-foundation/truffle-contract-schema":67}],3:[function(require,module,exports){
 'use strict';
 
 var KEYWORDS = [
@@ -15965,8 +15965,8 @@ module.exports={
     "type": "range",
     "registry": true,
     "raw": "truffle-contract-schema@^2.0.0",
-    "name": "truffle-contract-schema",
-    "escapedName": "truffle-contract-schema",
+    "name": "@dexon-foundation/truffle-contract-schema",
+    "escapedName": "@dexon-foundation/truffle-contract-schema",
     "rawSpec": "^2.0.0",
     "saveSpec": null,
     "fetchSpec": "^2.0.0"
@@ -16007,7 +16007,7 @@ module.exports={
   ],
   "license": "MIT",
   "main": "index.js",
-  "name": "truffle-contract-schema",
+  "name": "@dexon-foundation/truffle-contract-schema",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/trufflesuite/truffle-schema.git"

@@ -1,22 +1,22 @@
 {
-  "name": "truffle-compile",
+  "name": "@dexon-foundation/truffle-compile",
   "version": "3.0.13",
   "description": "Compiler helper and artifact manager",
   "main": "index.js",
   "dependencies": {
+    "@dexon-foundation/dsolc": "0.4.24",
+    "@dexon-foundation/truffle-config": "^1.0.6",
     "async": "2.6.1",
     "colors": "^1.1.2",
     "debug": "^3.1.0",
     "graphlib": "^2.1.1",
-    "solc": "0.4.24",
-    "truffle-config": "^1.0.6",
     "truffle-contract-sources": "^0.0.2",
     "truffle-error": "^0.0.3",
     "truffle-expect": "^0.0.4"
   },
   "devDependencies": {
-    "mocha": "5.2.0",
-    "truffle-resolver": "^4.0.4"
+    "@dexon-foundation/truffle-resolver": "^4.0.4",
+    "mocha": "5.2.0"
   },
   "scripts": {
     "test": "mocha"

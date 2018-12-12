@@ -1,13 +1,13 @@
 var assert = require("chai").assert;
-var Box = require("truffle-box");
+var Box = require("@dexon-foundation/truffle-box");
 var Migrate = require("truffle-migrate");
-var Contracts = require("truffle-workflow-compile");
+var Contracts = require("@dexon-foundation/truffle-workflow-compile");
 var Networks = require("../lib/networks");
 var path = require("path");
 var fs = require("fs");
-var TestRPC = require("ganache-cli");
-var Resolver = require("truffle-resolver");
-var Artifactor = require("truffle-artifactor");
+var TestRPC = require("@dexon-foundation/ganache-cli");
+var Resolver = require("@dexon-foundation/truffle-resolver");
+var Artifactor = require("@dexon-foundation/truffle-artifactor");
 var Web3 = require("web3");
 
 describe("migrate", function() {

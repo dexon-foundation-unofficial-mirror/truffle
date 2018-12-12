@@ -1,6 +1,6 @@
 var expect = require("truffle-expect");
 var TruffleError = require("truffle-error");
-var Provider = require("truffle-provider");
+var Provider = require("@dexon-foundation/truffle-provider");
 var Profiler = require("truffle-compile/profiler");
 var Networks = require("./networks");
 var EthPM = require("ethpm");

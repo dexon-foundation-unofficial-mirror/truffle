@@ -2,11 +2,11 @@ var fs = require("fs");
 var dir = require("node-dir");
 var path = require("path");
 var ResolverIntercept = require("./resolverintercept");
-var Require = require("truffle-require");
+var Require = require("@dexon-foundation/truffle-require");
 var async = require("async");
 var Web3 = require("web3");
 var expect = require("truffle-expect");
-var Deployer = require("truffle-deployer");
+var Deployer = require("@dexon-foundation/truffle-deployer");
 
 function Migration(file) {
   this.file = path.resolve(file);

@@ -8,8 +8,8 @@ var command = {
     }
   },
   run: function (options, done) {
-    var Config = require("truffle-config");
-    var Contracts = require("truffle-workflow-compile");
+    var Config = require("@dexon-foundation/truffle-config");
+    var Contracts = require("@dexon-foundation/truffle-workflow-compile");
 
     var config = Config.detect(options);
     Contracts.compile(config, done);

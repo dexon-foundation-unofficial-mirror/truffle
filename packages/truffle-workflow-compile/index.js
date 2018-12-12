@@ -2,12 +2,12 @@ var async = require("async");
 var fs = require("fs");
 var mkdirp = require("mkdirp");
 var path = require("path");
-var Config = require("truffle-config");
-var compile = require("truffle-compile");
+var Config = require("@dexon-foundation/truffle-config");
+var compile = require("@dexon-foundation/truffle-compile");
 var expect = require("truffle-expect");
 var _ = require("lodash");
-var Resolver = require("truffle-resolver");
-var Artifactor = require("truffle-artifactor");
+var Resolver = require("@dexon-foundation/truffle-resolver");
+var Artifactor = require("@dexon-foundation/truffle-artifactor");
 var OS = require("os");
 
 var Contracts = {

@@ -21,7 +21,7 @@ export default function configureStore (reducer, saga, initialState) {
     }),
 
     startOn: "SESSION_READY",
-    name: "truffle-debugger",
+    name: "@dexon-foundation/truffle-debugger",
     hostname: "localhost",
     port: 11117
   });

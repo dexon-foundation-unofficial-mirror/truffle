@@ -4,11 +4,11 @@ var command = {
   builder: {},
   run: function (options, done) {
     var Build = require("../build");
-    var Config = require("truffle-config");
+    var Config = require("@dexon-foundation/truffle-config");
     var chokidar = require("chokidar");
     var path = require("path");
     var colors = require("colors");
-    var Contracts = require("truffle-workflow-compile");
+    var Contracts = require("@dexon-foundation/truffle-workflow-compile");
     var TruffleError = require("truffle-error");
 
     var config = Config.detect(options);

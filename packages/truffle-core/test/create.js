@@ -1,11 +1,11 @@
 var assert = require("chai").assert;
 var path = require("path");
 var fs = require("fs");
-var Box = require("truffle-box");
+var Box = require("@dexon-foundation/truffle-box");
 var Create = require("../lib/create");
 var dir = require("node-dir");
-var Resolver = require("truffle-resolver");
-var Artifactor = require("truffle-artifactor");
+var Resolver = require("@dexon-foundation/truffle-resolver");
+var Artifactor = require("@dexon-foundation/truffle-artifactor");
 
 describe('create', function() {
   var config;

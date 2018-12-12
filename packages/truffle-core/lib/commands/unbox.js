@@ -52,8 +52,8 @@ var command = {
   description: 'Download a Truffle Box, a pre-built Truffle project',
   builder: {},
   run: function(options, done) {
-    var Config = require("truffle-config");
-    var Box = require("truffle-box");
+    var Config = require("@dexon-foundation/truffle-config");
+    var Box = require("@dexon-foundation/truffle-box");
     var OS = require("os");
 
     var config = Config.default().with({

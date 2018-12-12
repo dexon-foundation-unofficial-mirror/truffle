@@ -1,4 +1,4 @@
-var TestRPC = require("ganache-cli");
+var TestRPC = require("@dexon-foundation/ganache-cli");
 var fs = require('fs-extra');
 var glob = require('glob');
 

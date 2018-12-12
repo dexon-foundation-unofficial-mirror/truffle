@@ -3,7 +3,7 @@ var command = {
   description: 'Run a console with contract abstractions and commands available',
   builder: {},
   run: function (options, done) {
-    var Config = require("truffle-config");
+    var Config = require("@dexon-foundation/truffle-config");
     var Console = require("../console");
     var Environment = require("../environment");
     var Develop = require("./develop");

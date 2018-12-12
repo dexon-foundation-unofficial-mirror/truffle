@@ -5,7 +5,7 @@ module.exports = {
   create: require("./lib/create"),
   config: require("./lib/config"),
   console: require("./lib/repl"),
-  contracts: require("truffle-workflow-compile"),
+  contracts: require("@dexon-foundation/truffle-workflow-compile"),
   init: require("./lib/init"),
   package: require("./lib/package"),
   serve: require("./lib/serve"),
