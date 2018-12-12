@@ -13,7 +13,7 @@ var SolidityTest = require("./testing/soliditytest");
 var expect = require("truffle-expect");
 var find_contracts = require("truffle-contract-sources");
 var Migrate = require("@dexon-foundation/truffle-migrate");
-var Profiler = require("truffle-compile/profiler.js");
+var Profiler = require("@dexon-foundation/truffle-compile/profiler.js");
 var async = require("async");
 var originalrequire = require("original-require");
 

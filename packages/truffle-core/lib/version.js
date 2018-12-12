@@ -1,5 +1,5 @@
 var pkg = require("../package.json");
-var solcpkg = require("solc/package.json");
+var solcpkg = require("@dexon-foundation/dsolc/package.json");
 
 var bundle_version = null;
 
