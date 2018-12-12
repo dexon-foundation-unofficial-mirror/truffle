@@ -33,7 +33,7 @@ var compile = function(sources, options, callback) {
 
   expect.options(options, [
     "contracts_directory",
-    "@dexon-foundation/dsolc"
+    "solc"
   ]);
 
   // Load solc module only when compilation is actually required.
