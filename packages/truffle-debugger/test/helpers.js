@@ -8,7 +8,7 @@ import Contracts from "@dexon-foundation/truffle-workflow-compile";
 import Debug from "truffle-debug-utils";
 import Artifactor from "@dexon-foundation/truffle-artifactor";
 import Web3 from "web3";
-import Migrate from "truffle-migrate";
+import Migrate from "@dexon-foundation/truffle-migrate";
 import Box from "@dexon-foundation/truffle-box";
 import Resolver from "@dexon-foundation/truffle-resolver";
 import expect from "truffle-expect";

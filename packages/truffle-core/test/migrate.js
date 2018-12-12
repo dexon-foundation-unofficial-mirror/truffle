@@ -1,6 +1,6 @@
 var assert = require("chai").assert;
 var Box = require("@dexon-foundation/truffle-box");
-var Migrate = require("truffle-migrate");
+var Migrate = require("@dexon-foundation/truffle-migrate");
 var Contracts = require("@dexon-foundation/truffle-workflow-compile");
 var Networks = require("../lib/networks");
 var path = require("path");

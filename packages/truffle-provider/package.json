@@ -27,7 +27,7 @@
     "web3": "0.20.6"
   },
   "devDependencies": {
-    "@dexon-foundation/ganache-cli": "6.1.0-beta.4",
+    "@dexon-foundation/ganache-cli": "6.2.5",
     "mocha": "5.2.0"
   },
   "publishConfig": {

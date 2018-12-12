@@ -32,7 +32,7 @@
     "web3": "0.20.6"
   },
   "devDependencies": {
-    "@dexon-foundation/dsolc": "0.4.24",
+    "@dexon-foundation/dsolc": "0.4.25",
     "@dexon-foundation/ganache-core": "^2.1.0",
     "async": "2.6.1",
     "browserify": "^14.0.0",

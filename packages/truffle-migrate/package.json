@@ -1,5 +1,5 @@
 {
-  "name": "truffle-migrate",
+  "name": "@dexon-foundation/truffle-migrate",
   "version": "2.0.8",
   "description": "On-chain migrations management",
   "main": "index.js",

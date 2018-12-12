@@ -4,7 +4,7 @@
   "description": "Compiler helper and artifact manager",
   "main": "index.js",
   "dependencies": {
-    "@dexon-foundation/dsolc": "0.4.24",
+    "@dexon-foundation/dsolc": "0.4.25",
     "@dexon-foundation/truffle-config": "^1.0.6",
     "async": "2.6.1",
     "colors": "^1.1.2",

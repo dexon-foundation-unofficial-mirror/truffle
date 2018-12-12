@@ -1,5 +1,5 @@
 {
-  "name": "truffle-core",
+  "name": "@dexon-foundation/truffle-core",
   "namespace": "consensys",
   "version": "4.1.14",
   "description": "Core code for Truffle command line tool",

@@ -1,6 +1,6 @@
 var Web3 = require("web3");
 var Config = require("@dexon-foundation/truffle-config");
-var Migrate = require("truffle-migrate");
+var Migrate = require("@dexon-foundation/truffle-migrate");
 var TestResolver = require("./testresolver");
 var TestSource = require("./testsource");
 var expect = require("truffle-expect");

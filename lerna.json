@@ -4,7 +4,6 @@
     "packages/*"
   ],
   "version": "independent",
-  "npmClient": "yarn",
   "npmClientArgs": ["--ignore-engines"],
   "useWorkspaces": true
 }
