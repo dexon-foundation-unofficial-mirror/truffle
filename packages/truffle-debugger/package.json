@@ -1,6 +1,6 @@
 {
   "name": "@dexon-foundation/truffle-debugger",
-  "version": "4.0.3",
+  "version": "4.0.4",
   "description": "Core functionality for debugging Solidity files built with Truffle",
   "main": "dist/debugger.js",
   "scripts": {
@@ -20,7 +20,7 @@
   "author": "Tim Coulter <tim.coulter@consenseys.net>",
   "license": "MIT",
   "dependencies": {
-    "@dexon-foundation/truffle-code-utils": "^1.1.1",
+    "@dexon-foundation/truffle-code-utils": "^1.1.2",
     "bignumber.js": "^7.2.1",
     "debug": "^3.1.0",
     "json-pointer": "^0.6.0",
@@ -36,10 +36,10 @@
   },
   "devDependencies": {
     "@dexon-foundation/ganache-cli": "6.2.5",
-    "@dexon-foundation/truffle-artifactor": "^3.0.7",
-    "@dexon-foundation/truffle-resolver": "^4.0.4",
-    "@dexon-foundation/truffle-workflow-compile": "^1.0.6",
-    "@dexon-foundation/truffle-box": "^1.0.7",
+    "@dexon-foundation/truffle-artifactor": "^3.0.8",
+    "@dexon-foundation/truffle-box": "^1.0.8",
+    "@dexon-foundation/truffle-resolver": "^4.0.5",
+    "@dexon-foundation/truffle-workflow-compile": "^1.0.7",
     "async": "2.6.1",
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
