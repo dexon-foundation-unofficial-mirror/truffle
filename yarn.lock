@@ -93,6 +93,19 @@
     tmp "0.0.33"
     yargs "^11.0.0"
 
+"@dexon-foundation/dsolc@0.5.1":
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/@dexon-foundation/dsolc/-/dsolc-0.5.1.tgz#c69fe2858f8e12db581117182a05a2c6b6fc9ef6"
+  dependencies:
+    command-exists "^1.2.8"
+    fs-extra "^0.30.0"
+    keccak "^1.0.2"
+    memorystream "^0.3.1"
+    require-from-string "^2.0.0"
+    semver "^5.5.0"
+    tmp "0.0.33"
+    yargs "^11.0.0"
+
 "@dexon-foundation/eth-json-rpc-infura@^3.1.0":
   version "3.1.2"
   resolved "https://registry.yarnpkg.com/@dexon-foundation/eth-json-rpc-infura/-/eth-json-rpc-infura-3.1.2.tgz#ee1a6247870f940b14821fdacffb3d63cafc8e65"
