@@ -21,12 +21,15 @@ function updatePackages(dryRun = false) {
       const packageJson = JSON.parse(fs.readFileSync(packageJsonPath, "utf8"));
 
       // operate if the solc dependency exists
-      if (packageJson.dependencies && packageJson.dependencies["solc"]) {
+      if (
+        packageJson.dependencies &&
+        packageJson.dependencies["@dexon-foundation/dsolc"]
+      ) {
         if (dryRun) return packageName;
         return updatePackage(packageName, packagePath, false);
       } else if (
         packageJson.devDependencies &&
-        packageJson.devDependencies["solc"]
+        packageJson.devDependencies["@dexon-foundation/dsolc"]
       ) {
         if (dryRun) return packageName;
         return updatePackage(packageName, packagePath, true);
