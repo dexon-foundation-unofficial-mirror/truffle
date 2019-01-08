@@ -1,6 +1,6 @@
 {
   "name": "@dexon-foundation/truffle-code-utils",
-  "version": "1.1.10",
+  "version": "1.1.11",
   "description": "",
   "main": "index.js",
   "scripts": {},
@@ -9,5 +9,5 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "25bf2fe24a86f6a5581e6d224940ecb7eb9986ec"
+  "gitHead": "534cf86b5af00f9ea2a5df6107f60832d851afdb"
 }

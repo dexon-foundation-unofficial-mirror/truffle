@@ -1,6 +1,6 @@
 {
   "name": "@dexon-foundation/truffle-migrate",
-  "version": "3.0.8",
+  "version": "3.0.9",
   "description": "On-chain migrations management",
   "main": "index.js",
   "scripts": {},
@@ -21,8 +21,8 @@
   },
   "homepage": "https://github.com/trufflesuite/truffle-migrate#readme",
   "dependencies": {
-    "@dexon-foundation/truffle-deployer": "^3.0.8",
-    "@dexon-foundation/truffle-require": "^2.0.8",
+    "@dexon-foundation/truffle-deployer": "^3.0.9",
+    "@dexon-foundation/truffle-require": "^2.0.9",
     "async": "2.6.1",
     "emittery": "^0.4.0",
     "node-dir": "0.1.17",
@@ -36,5 +36,5 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "25bf2fe24a86f6a5581e6d224940ecb7eb9986ec"
+  "gitHead": "534cf86b5af00f9ea2a5df6107f60832d851afdb"
 }

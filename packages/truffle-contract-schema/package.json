@@ -1,6 +1,6 @@
 {
   "name": "@dexon-foundation/truffle-contract-schema",
-  "version": "3.0.8",
+  "version": "3.0.9",
   "description": "JSON schema for contract artifacts",
   "main": "index.js",
   "scripts": {
@@ -38,5 +38,5 @@
   "directories": {
     "spec": "./spec"
   },
-  "gitHead": "25bf2fe24a86f6a5581e6d224940ecb7eb9986ec"
+  "gitHead": "534cf86b5af00f9ea2a5df6107f60832d851afdb"
 }

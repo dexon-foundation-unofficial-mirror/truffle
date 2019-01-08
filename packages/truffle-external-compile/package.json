@@ -1,6 +1,6 @@
 {
   "name": "@dexon-foundation/truffle-external-compile",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Wrapper to compile Truffle contracts with arbitrary shell command",
   "keywords": [
     "truffle",
@@ -22,7 +22,7 @@
     "url": "https://github.com/trufflesuite/truffle/issues"
   },
   "dependencies": {
-    "@dexon-foundation/truffle-contract-schema": "^3.0.8",
+    "@dexon-foundation/truffle-contract-schema": "^3.0.9",
     "debug": "^4.1.0",
     "glob": "^7.1.2",
     "truffle-expect": "^0.0.6",
@@ -36,5 +36,5 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "25bf2fe24a86f6a5581e6d224940ecb7eb9986ec"
+  "gitHead": "534cf86b5af00f9ea2a5df6107f60832d851afdb"
 }

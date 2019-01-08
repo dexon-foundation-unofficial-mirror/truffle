@@ -1,13 +1,13 @@
 {
   "name": "@dexon-foundation/truffle-workflow-compile",
-  "version": "2.0.8",
+  "version": "2.0.9",
   "description": "Core workflow behavior for `truffle compile` command",
   "dependencies": {
-    "@dexon-foundation/truffle-artifactor": "^4.0.8",
-    "@dexon-foundation/truffle-compile": "^4.0.8",
-    "@dexon-foundation/truffle-config": "^1.1.8",
-    "@dexon-foundation/truffle-external-compile": "^1.0.8",
-    "@dexon-foundation/truffle-resolver": "^5.0.8",
+    "@dexon-foundation/truffle-artifactor": "^4.0.9",
+    "@dexon-foundation/truffle-compile": "^4.0.9",
+    "@dexon-foundation/truffle-config": "^1.1.9",
+    "@dexon-foundation/truffle-external-compile": "^1.0.9",
+    "@dexon-foundation/truffle-resolver": "^5.0.9",
     "async": "2.6.1",
     "debug": "^4.1.0",
     "lodash": "4.17.10",
@@ -30,5 +30,5 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "25bf2fe24a86f6a5581e6d224940ecb7eb9986ec"
+  "gitHead": "534cf86b5af00f9ea2a5df6107f60832d851afdb"
 }

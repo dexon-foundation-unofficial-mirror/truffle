@@ -1,7 +1,7 @@
 {
   "name": "@dexon-foundation/truffle",
   "namespace": "consensys",
-  "version": "5.0.9",
+  "version": "5.0.10",
   "description": "Truffle - Simple development framework for Ethereum",
   "dependencies": {
     "@dexon-foundation/dsolc": "0.5.1",
@@ -11,8 +11,8 @@
   },
   "devDependencies": {
     "@dexon-foundation/ganache-core": "2.3.1",
-    "@dexon-foundation/truffle-box": "^1.0.16",
-    "@dexon-foundation/truffle-contract": "^4.0.8",
+    "@dexon-foundation/truffle-box": "^1.0.17",
+    "@dexon-foundation/truffle-contract": "^4.0.9",
     "clean-webpack-plugin": "^0.1.16",
     "copy-webpack-plugin": "^4.0.1",
     "cross-env": "^5.2.0",
@@ -69,5 +69,5 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "25bf2fe24a86f6a5581e6d224940ecb7eb9986ec"
+  "gitHead": "534cf86b5af00f9ea2a5df6107f60832d851afdb"
 }
