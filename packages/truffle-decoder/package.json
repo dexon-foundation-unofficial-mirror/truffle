@@ -1,6 +1,6 @@
 {
   "name": "@dexon-foundation/truffle-decoder",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "A library that provides both high and low level decoding of Ethereum contract variables",
   "main": "dist/interface/index.js",
   "types": "lib/interface/index.ts",
@@ -29,8 +29,8 @@
   },
   "homepage": "https://github.com/trufflesuite/truffle#readme",
   "devDependencies": {
-    "@dexon-foundation/truffle": "^5.0.7",
-    "@dexon-foundation/truffle-contract-schema": "^3.0.6",
+    "@dexon-foundation/truffle": "^5.0.8",
+    "@dexon-foundation/truffle-contract-schema": "^3.0.7",
     "@types/bn.js": "^4.11.2",
     "@types/debug": "^0.0.31",
     "@types/lodash": "^4.14.116",
