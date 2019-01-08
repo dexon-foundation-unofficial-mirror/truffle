@@ -106,6 +106,8 @@ var Contracts = {
   writeContracts: async function(contracts, options) {
     var logger = options.logger || console;
 
+    await promisify(mkdirp)(options.contracts_build_directory);
+
     if (options.quiet != true && options.quietWrite != true) {
       logger.log(
         "Writing artifacts to ." +
