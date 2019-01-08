@@ -1,3 +1,4 @@
+var mkdirp = require("mkdirp");
 var path = require("path");
 var { callbackify, promisify } = require("util");
 var Config = require("@dexon-foundation/truffle-config");

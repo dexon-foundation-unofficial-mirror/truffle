@@ -33,5 +33,8 @@
     "mocha": "5.2.0",
     "temp": "^0.8.3"
   },
-  "gitHead": "d7242e3039374021364a61f4fc9c5c6da4a1e2f3"
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "25bf2fe24a86f6a5581e6d224940ecb7eb9986ec"
 }
