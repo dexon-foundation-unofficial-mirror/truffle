@@ -1,4 +1,4 @@
-var Box = require("truffle-box");
+var Box = require("@dexon-foundation/truffle-box");
 var MemoryLogger = require("../memorylogger");
 var CommandRunner = require("../commandrunner");
 var fs = require("fs-extra");

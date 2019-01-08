@@ -1,7 +1,7 @@
 const utils = require("./lib/utils");
 const tmp = require("tmp");
 const path = require("path");
-const Config = require("truffle-config");
+const Config = require("@dexon-foundation/truffle-config");
 const ora = require("ora");
 
 function parseSandboxOptions(options) {

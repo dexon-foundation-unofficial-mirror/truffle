@@ -1,9 +1,9 @@
 const Web3 = require("web3");
 const TruffleError = require("truffle-error");
 const expect = require("truffle-expect");
-const Resolver = require("truffle-resolver");
-const Artifactor = require("truffle-artifactor");
-const Ganache = require("ganache-core");
+const Resolver = require("@dexon-foundation/truffle-resolver");
+const Artifactor = require("@dexon-foundation/truffle-artifactor");
+const Ganache = require("@dexon-foundation/ganache-core");
 const { callbackify } = require("util");
 
 const Environment = {

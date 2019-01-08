@@ -1,22 +1,20 @@
 var assert = require("chai").assert;
-var Box = require("truffle-box");
+var Box = require("@dexon-foundation/truffle-box");
 var fs = require("fs-extra");
 var glob = require("glob");
 var path = require("path");
-var Contracts = require("truffle-workflow-compile");
+var Contracts = require("@dexon-foundation/truffle-workflow-compile");
 var Package = require("../lib/package.js");
 var Blockchain = require("truffle-blockchain-utils");
 var GithubExamples = require("ethpm/lib/indexes/github-examples");
-var Ganache = require("ganache-core");
-var Resolver = require("truffle-resolver");
-var Artifactor = require("truffle-artifactor");
+var Ganache = require("@dexon-foundation/ganache-core");
+var Resolver = require("@dexon-foundation/truffle-resolver");
+var Artifactor = require("@dexon-foundation/truffle-artifactor");
 
 describe.skip("EthPM integration", function() {
   var config;
   var host;
   var registry;
-  var ipfs_api;
-  var ipfs_daemon;
   var provider;
   var blockchain_uri;
 

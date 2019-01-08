@@ -1,5 +1,5 @@
 var emoji = require("node-emoji");
-const mnemonicInfo = require("truffle-core/lib/mnemonics/mnemonic");
+const mnemonicInfo = require("@dexon-foundation/truffle-core/lib/mnemonics/mnemonic");
 
 var command = {
   command: "develop",
@@ -47,7 +47,7 @@ var command = {
     });
   },
   run: function(options, done) {
-    var Config = require("truffle-config");
+    var Config = require("@dexon-foundation/truffle-config");
     var Develop = require("../develop");
 
     var config = Config.detect(options);
@@ -68,7 +68,7 @@ var command = {
       numAddresses
     );
 
-    var onMissing = function(name) {
+    var onMissing = function() {
       return "**";
     };
 

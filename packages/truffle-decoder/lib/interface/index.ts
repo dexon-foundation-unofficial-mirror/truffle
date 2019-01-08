@@ -3,7 +3,7 @@ import { DataPointer } from "../types/pointer";
 import { EvmInfo } from "../types/evm";
 import decode from "../decode";
 import TruffleDecoder from "./contract-decoder";
-import { ContractObject } from "truffle-contract-schema/spec";
+import { ContractObject } from "@dexon-foundation/truffle-contract-schema/spec";
 import { Provider } from "web3/providers";
 
 export function forContract(contract: ContractObject, inheritedContracts: ContractObject[], provider: Provider): TruffleDecoder {

@@ -1,14 +1,14 @@
 var assert = require("chai").assert;
 var fs = require("fs-extra");
 var glob = require("glob");
-var Box = require("truffle-box");
-var Profiler = require("truffle-compile/profiler.js");
-var Resolver = require("truffle-resolver");
-var Artifactor = require("truffle-artifactor");
+var Box = require("@dexon-foundation/truffle-box");
+var Profiler = require("@dexon-foundation/truffle-compile/profiler.js");
+var Resolver = require("@dexon-foundation/truffle-resolver");
+var Artifactor = require("@dexon-foundation/truffle-artifactor");
 
 // TOOD: Move this to truffle-compile!
 
-describe('profiler', function() {
+describe("profiler", function() {
   var config;
 
   before("Create a sandbox", function(done) {
@@ -23,24 +23,27 @@ describe('profiler', function() {
     });
   });
 
-  after("Cleanup tmp files", function(done){
-    glob('tmp-*', (err, files) => {
-      if(err) done(err);
+  after("Cleanup tmp files", function(done) {
+    glob("tmp-*", (err, files) => {
+      if (err) done(err);
       files.forEach(file => fs.removeSync(file));
       done();
     });
   });
 
-  it('profiles example project successfully', function(done) {
-    Profiler.required_sources(config.with({
-      paths: ["./ConvertLib.sol"],
-      base_path: config.contracts_directory
-    }), function(err, allSources, compilationTargets) {
-      if (err) return done(err);
+  it("profiles example project successfully", function(done) {
+    Profiler.required_sources(
+      config.with({
+        paths: ["./ConvertLib.sol"],
+        base_path: config.contracts_directory
+      }),
+      function(err, allSources, compilationTargets) {
+        if (err) return done(err);
 
-      assert.equal(Object.keys(allSources).length, 3);
-      assert.equal(compilationTargets.length, 2);
-      done();
-    });
+        assert.equal(Object.keys(allSources).length, 3);
+        assert.equal(compilationTargets.length, 2);
+        done();
+      }
+    );
   });
 });

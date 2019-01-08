@@ -1,4 +1,4 @@
-const Config = require("truffle-config");
+const Config = require("@dexon-foundation/truffle-config");
 const ua = require("universal-analytics");
 const assert = require("chai").assert;
 const sinon = require("sinon");
@@ -95,10 +95,8 @@ describe("analytics", function() {
   });
   describe("#sendAnalyticsEvent", function() {
     it("sends an event object to google analytics", function() {
-      let checkAnalyticsStub = sinon
-        .stub(analytics, "checkIfAnalyticsEnabled")
-        .returns(true);
-      let sendingAnalyticsEvent = analytics.sendAnalyticsEvent({
+      sinon.stub(analytics, "checkIfAnalyticsEnabled").returns(true);
+      analytics.sendAnalyticsEvent({
         ec: "initialization",
         ea: "truffle unbox"
       });

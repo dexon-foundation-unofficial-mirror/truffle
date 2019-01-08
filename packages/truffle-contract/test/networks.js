@@ -9,8 +9,8 @@ process.removeListener(
   process.listeners("uncaughtException")[0] || function() {}
 );
 
-var debug = require("debug")("ganache-core");
-var Ganache = require("ganache-core");
+var debug = require("debug")("@dexon-foundation/ganache-core");
+var Ganache = require("@dexon-foundation/ganache-core");
 var BlockchainUtils = require("truffle-blockchain-utils");
 var contract = require("../");
 var times = require("async/times");

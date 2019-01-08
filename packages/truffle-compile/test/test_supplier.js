@@ -3,10 +3,10 @@ const fs = require("fs");
 const path = require("path");
 const assert = require("assert");
 const findCacheDir = require("find-cache-dir");
-const Resolver = require("truffle-resolver");
+const Resolver = require("@dexon-foundation/truffle-resolver");
 const compile = require("../index");
 const CompilerSupplier = require("../compilerSupplier");
-const Config = require("truffle-config");
+const Config = require("@dexon-foundation/truffle-config");
 
 function waitSecond() {
   return new Promise(resolve => setTimeout(() => resolve(), 1250));

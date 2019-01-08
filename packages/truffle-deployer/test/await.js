@@ -1,4 +1,4 @@
-const ganache = require("ganache-core");
+const ganache = require("@dexon-foundation/ganache-core");
 const Web3 = require("web3");
 const assert = require("assert");
 

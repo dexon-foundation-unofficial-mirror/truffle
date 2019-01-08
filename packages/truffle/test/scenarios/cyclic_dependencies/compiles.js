@@ -1,10 +1,10 @@
-var Box = require("truffle-box");
+var Box = require("@dexon-foundation/truffle-box");
 var MemoryLogger = require("../memorylogger");
 var CommandRunner = require("../commandrunner");
 var fs = require("fs-extra");
 var path = require("path");
 var assert = require("assert");
-var Ganache = require("ganache-core");
+var Ganache = require("@dexon-foundation/ganache-core");
 var Reporter = require("../reporter");
 
 describe("Cyclic Dependencies", function() {

@@ -1,13 +1,13 @@
 var assert = require("chai").assert;
 var Artifactor = require("../");
-var contract = require("truffle-contract");
-var Schema = require("truffle-contract-schema");
+var contract = require("@dexon-foundation/truffle-contract");
+var Schema = require("@dexon-foundation/truffle-contract-schema");
 var temp = require("temp").track();
 var path = require("path");
 var fs = require("fs");
 var requireNoCache = require("require-nocache")(module);
-var Compile = require("truffle-compile");
-var Ganache = require("ganache-core");
+var Compile = require("@dexon-foundation/truffle-compile");
+var Ganache = require("@dexon-foundation/ganache-core");
 var Web3 = require("web3");
 const { promisify } = require("util");
 

@@ -30,13 +30,13 @@ var command = {
       return options.stylize(this.toString(), "number");
     };
 
-    var compile = require("truffle-compile");
-    var Config = require("truffle-config");
-    var Debugger = require("truffle-debugger");
+    var compile = require("@dexon-foundation/truffle-compile");
+    var Config = require("@dexon-foundation/truffle-config");
+    var Debugger = require("@dexon-foundation/truffle-debugger");
     var DebugUtils = require("truffle-debug-utils");
     var Environment = require("../environment");
     var ReplManager = require("../repl");
-    var selectors = require("truffle-debugger").selectors;
+    var selectors = require("@dexon-foundation/truffle-debugger").selectors;
 
     // Debugger Session properties
     var trace = selectors.trace;

@@ -1,10 +1,10 @@
 var fs = require("fs");
 var path = require("path");
-var Module = require('module');
-var vm = require('vm');
+var Module = require("module");
+var vm = require("vm");
 var originalrequire = require("original-require");
 var expect = require("truffle-expect");
-var Config = require("truffle-config");
+var Config = require("@dexon-foundation/truffle-config");
 var Web3 = require("web3");
 
 // options.file: path to file to execute. Must be a module that exports a function.
@@ -14,16 +14,13 @@ var Web3 = require("web3");
 //   function is run.
 var Require = {
   file: function(options, done) {
-    var self = this;
     var file = options.file;
 
-    expect.options(options, [
-      "file"
-    ]);
+    expect.options(options, ["file"]);
 
     options = Config.default().with(options);
 
-    fs.readFile(options.file, {encoding: "utf8"}, function(err, source) {
+    fs.readFile(options.file, { encoding: "utf8" }, function(err, source) {
       if (err) return done(err);
 
       // Modified from here: https://gist.github.com/anatoliychakkaev/1599423
@@ -63,12 +60,12 @@ var Require = {
             var moduleDir = path.dirname(file);
             while (true) {
               try {
-                return originalrequire(path.join(moduleDir, 'node_modules', pkgPath));
-              } catch (e) {
-
-              }
+                return originalrequire(
+                  path.join(moduleDir, "node_modules", pkgPath)
+                );
+              } catch (e) {}
               var oldModuleDir = moduleDir;
-              moduleDir = path.join(moduleDir, '..');
+              moduleDir = path.join(moduleDir, "..");
               if (moduleDir === oldModuleDir) {
                 break;
               }
@@ -81,7 +78,7 @@ var Require = {
         artifacts: options.resolver,
         setImmediate: setImmediate,
         setInterval: setInterval,
-        setTimeout: setTimeout,
+        setTimeout: setTimeout
       };
 
       // Now add contract names.
@@ -117,16 +114,19 @@ var Require = {
     var web3 = new Web3();
     web3.setProvider(options.provider);
 
-    self.file({
-      file: options.file,
-      context: {
-        web3: web3
+    self.file(
+      {
+        file: options.file,
+        context: {
+          web3: web3
+        },
+        resolver: options.resolver
       },
-      resolver: options.resolver
-    }, function(err, fn) {
-      if (err) return done(err);
-      fn(done);
-    });
+      function(err, fn) {
+        if (err) return done(err);
+        fn(done);
+      }
+    );
   }
 };
 

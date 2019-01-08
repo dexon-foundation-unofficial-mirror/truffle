@@ -1,12 +1,12 @@
 var assert = require("chai").assert;
 var fs = require("fs-extra");
 var glob = require("glob");
-var Box = require("truffle-box");
-var Contracts = require("truffle-workflow-compile");
-var Ganache = require("ganache-core");
+var Box = require("@dexon-foundation/truffle-box");
+var Contracts = require("@dexon-foundation/truffle-workflow-compile");
+var Ganache = require("@dexon-foundation/ganache-core");
 var provision = require("truffle-provisioner");
-var Resolver = require("truffle-resolver");
-var Artifactor = require("truffle-artifactor");
+var Resolver = require("@dexon-foundation/truffle-resolver");
+var Artifactor = require("@dexon-foundation/truffle-artifactor");
 
 describe("config", function() {
   var config;

@@ -1,5 +1,5 @@
 const pkg = require("../package.json");
-const solcpkg = require("solc/package.json");
+const solcpkg = require("@dexon-foundation/dsolc/package.json");
 
 const info = () => {
   let bundleVersion;

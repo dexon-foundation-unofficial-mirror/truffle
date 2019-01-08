@@ -3,11 +3,11 @@ var assert = require("chai").assert;
 var temp = require("temp").track();
 var contract = require("../");
 var Web3 = require("web3");
-var debug = require("debug")("ganache-core");
-var Ganache = require("ganache-core");
+var debug = require("debug")("@dexon-foundation/ganache-core");
+var Ganache = require("@dexon-foundation/ganache-core");
 var path = require("path");
 var fs = require("fs");
-var Compile = require("truffle-compile");
+var Compile = require("@dexon-foundation/truffle-compile");
 const { promisify } = require("util");
 
 // Clean up after solidity. Only remove solidity's listener,

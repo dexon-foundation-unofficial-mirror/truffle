@@ -1,4 +1,4 @@
-const Ganache = require("ganache-core");
+const Ganache = require("@dexon-foundation/ganache-core");
 const assert = require("assert");
 const WalletProvider = require("../src/index.js");
 const EthUtil = require("ethereumjs-util");

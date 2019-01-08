@@ -1,5 +1,5 @@
 {
-  "name": "truffle-config",
+  "name": "@dexon-foundation/truffle-config",
   "version": "1.1.1",
   "description": "Utility for interacting with truffle.js files",
   "main": "index.js",
@@ -25,7 +25,7 @@
     "lodash": "4.17.10",
     "original-require": "1.0.1",
     "truffle-error": "^0.0.3",
-    "truffle-provider": "^0.1.1"
+    "@dexon-foundation/truffle-provider": "^0.1.1"
   },
   "publishConfig": {
     "access": "public"

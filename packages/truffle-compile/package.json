@@ -1,5 +1,5 @@
 {
-  "name": "truffle-compile",
+  "name": "@dexon-foundation/truffle-compile",
   "version": "4.0.1",
   "description": "Compiler helper and artifact manager",
   "main": "index.js",
@@ -14,8 +14,8 @@
     "request-promise": "^4.2.2",
     "require-from-string": "^2.0.2",
     "semver": "^5.6.0",
-    "solc": "0.5.0",
-    "truffle-config": "^1.1.1",
+    "@dexon-foundation/dsolc": "0.5.0",
+    "@dexon-foundation/truffle-config": "^1.1.1",
     "truffle-contract-sources": "^0.1.1",
     "truffle-error": "^0.0.3",
     "truffle-expect": "^0.0.6"
@@ -26,7 +26,7 @@
     "babel-preset-env": "^1.6.1",
     "mocha": "5.2.0",
     "tmp": "0.0.33",
-    "truffle-resolver": "^5.0.1"
+    "@dexon-foundation/truffle-resolver": "^5.0.1"
   },
   "babel": {
     "presets": [

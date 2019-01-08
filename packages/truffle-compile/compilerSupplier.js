@@ -6,7 +6,7 @@ const request = require("request-promise");
 const requireFromString = require("require-from-string");
 const findCacheDir = require("find-cache-dir");
 const originalRequire = require("original-require");
-const solcWrap = require("solc/wrapper");
+const solcWrap = require("@dexon-foundation/dsolc/wrapper");
 const ora = require("ora");
 const semver = require("semver");
 
@@ -121,7 +121,7 @@ CompilerSupplier.prototype.getDockerTags = function() {
  * @return {Module} solc
  */
 CompilerSupplier.prototype.getDefault = function() {
-  const compiler = require("solc");
+  const compiler = require("@dexon-foundation/dsolc");
   this.removeListener();
   return compiler;
 };
@@ -292,7 +292,7 @@ CompilerSupplier.prototype.getBuilt = function(buildType) {
   switch (buildType) {
     case "native":
       versionString = this.validateNative();
-      command = "solc --standard-json";
+      command = "dsolc --standard-json";
       break;
     case "docker":
       versionString = this.validateDocker();
@@ -392,7 +392,7 @@ CompilerSupplier.prototype.validateDocker = function() {
 CompilerSupplier.prototype.validateNative = function() {
   let version;
   try {
-    version = execSync("solc --version");
+    version = execSync("dsolc --version");
   } catch (err) {
     throw this.errors("noNative", null, err);
   }

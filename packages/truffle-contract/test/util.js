@@ -1,9 +1,9 @@
 var debug = require("debug")("test:util"); // eslint-disable-line no-unused-vars
 var fs = require("fs");
-var ganache = require("ganache-core");
+var ganache = require("@dexon-foundation/ganache-core");
 var Web3 = require("web3");
 var Web3PromiEvent = require("web3-core-promievent");
-var Compile = require("truffle-compile");
+var Compile = require("@dexon-foundation/truffle-compile");
 var contract = require("../");
 var path = require("path");
 const { promisify } = require("util");

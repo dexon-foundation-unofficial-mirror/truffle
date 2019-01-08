@@ -7,7 +7,7 @@
  * @requires module:../version
  */
 
-const Config = require("truffle-config");
+const Config = require("@dexon-foundation/truffle-config");
 const userConfig = Config.getUserConfig();
 const ua = require("universal-analytics");
 const uuid = require("uuid/v4");
@@ -142,7 +142,7 @@ const googleAnalytics = {
    * send event to Google Analytics
    * @param {Object}
    */
-  sendAnalyticsEvent: function(eventObject, callback) {
+  sendAnalyticsEvent: function(eventObject) {
     let visitor = this.setPersistentAnalyticsData();
     let sendObject = {};
     if (eventObject["command"]) {
@@ -159,7 +159,7 @@ const googleAnalytics = {
     }
 
     if (visitor) {
-      visitor.event(sendObject, function(err) {});
+      visitor.event(sendObject, function() {});
     }
 
     return true;

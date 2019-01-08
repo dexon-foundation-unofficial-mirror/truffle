@@ -1,5 +1,5 @@
 {
-  "name": "truffle-contract-schema",
+  "name": "@dexon-foundation/truffle-contract-schema",
   "version": "3.0.1",
   "description": "JSON schema for contract artifacts",
   "main": "index.js",
@@ -33,7 +33,7 @@
   "devDependencies": {
     "json-schema-to-typescript": "^5.5.0",
     "mocha": "5.2.0",
-    "solc": "0.5.0"
+    "@dexon-foundation/dsolc": "0.5.0"
   },
   "directories": {
     "spec": "./spec"

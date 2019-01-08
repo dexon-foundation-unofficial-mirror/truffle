@@ -1,4 +1,4 @@
-const ganache = require("ganache-core");
+const ganache = require("@dexon-foundation/ganache-core");
 const Web3 = require("web3");
 const assert = require("assert");
 const Reporter = require("truffle-reporters").migrationsV5;
@@ -70,8 +70,8 @@ describe("Error cases", function() {
       network_id: networkId,
       provider: provider,
       logger: {
-        log: val => {},
-        error: val => {}
+        log: () => {},
+        error: () => {}
       }
     };
     deployer = new Deployer(options);

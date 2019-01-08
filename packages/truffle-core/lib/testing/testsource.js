@@ -1,7 +1,7 @@
 var Deployed = require("./deployed");
 var path = require("path");
 var fs = require("fs");
-var contract = require("truffle-contract");
+var contract = require("@dexon-foundation/truffle-contract");
 var find_contracts = require("truffle-contract-sources");
 
 function TestSource(config) {

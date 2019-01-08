@@ -7,7 +7,7 @@
  * @requires module:crypto
  */
 
-const Config = require("truffle-config");
+const Config = require("@dexon-foundation/truffle-config");
 const defaultUserConfig = Config.getUserConfig();
 const bip39 = require("bip39");
 const hdkey = require("ethereumjs-wallet/hdkey");

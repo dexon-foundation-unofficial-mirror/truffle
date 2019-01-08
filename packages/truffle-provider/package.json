@@ -1,5 +1,5 @@
 {
-  "name": "truffle-provider",
+  "name": "@dexon-foundation/truffle-provider",
   "version": "0.1.1",
   "description": "Beefed up provider module for Truffle",
   "main": "index.js",
@@ -27,7 +27,7 @@
     "web3": "^1.0.0-beta.37"
   },
   "devDependencies": {
-    "ganache-core": "2.3.3",
+    "@dexon-foundation/ganache-core": "2.3.1",
     "mocha": "5.2.0"
   },
   "publishConfig": {

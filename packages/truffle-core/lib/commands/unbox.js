@@ -110,8 +110,8 @@ const command = {
     ]
   },
   run(options, done) {
-    const Config = require("truffle-config");
-    const Box = require("truffle-box");
+    const Config = require("@dexon-foundation/truffle-config");
+    const Box = require("@dexon-foundation/truffle-box");
     const OS = require("os");
 
     const config = Config.default().with({
