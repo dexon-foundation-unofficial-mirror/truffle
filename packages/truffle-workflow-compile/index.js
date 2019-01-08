@@ -1,5 +1,5 @@
 var path = require("path");
-var { callbackify } = require("util");
+var { callbackify, promisify } = require("util");
 var Config = require("@dexon-foundation/truffle-config");
 var solcCompile = require("@dexon-foundation/truffle-compile");
 var vyperCompile = require("truffle-compile-vyper");
