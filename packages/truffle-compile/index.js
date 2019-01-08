@@ -4,7 +4,7 @@ var Profiler = require("./profiler");
 var CompileError = require("./compileerror");
 var CompilerSupplier = require("./compilerSupplier");
 var expect = require("truffle-expect");
-var find_contracts = require("@dexon-foundation/truffle-contract-sources");
+var find_contracts = require("truffle-contract-sources");
 var Config = require("@dexon-foundation/truffle-config");
 var debug = require("debug")("compile"); // eslint-disable-line no-unused-vars
 

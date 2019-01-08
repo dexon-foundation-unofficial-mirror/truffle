@@ -3360,6 +3360,13 @@ create-hmac@^1.1.0, create-hmac@^1.1.2, create-hmac@^1.1.4:
     safe-buffer "^5.0.1"
     sha.js "^2.4.8"
 
+cross-env@^5.2.0:
+  version "5.2.0"
+  resolved "https://registry.yarnpkg.com/cross-env/-/cross-env-5.2.0.tgz#6ecd4c015d5773e614039ee529076669b9d126f2"
+  dependencies:
+    cross-spawn "^6.0.5"
+    is-windows "^1.0.0"
+
 cross-fetch@^2.1.0, cross-fetch@^2.1.1:
   version "2.2.3"
   resolved "https://registry.yarnpkg.com/cross-fetch/-/cross-fetch-2.2.3.tgz#e8a0b3c54598136e037f8650f8e823ccdfac198e"
@@ -11969,6 +11976,10 @@ truffle-blockchain-utils@^0.0.5:
   version "0.0.5"
   resolved "https://registry.yarnpkg.com/truffle-blockchain-utils/-/truffle-blockchain-utils-0.0.5.tgz#a4e5c064dadd69f782a137f3d276d21095da7a47"
 
+truffle-blockchain-utils@^0.0.7:
+  version "0.0.7"
+  resolved "https://registry.yarnpkg.com/truffle-blockchain-utils/-/truffle-blockchain-utils-0.0.7.tgz#42f5c518541ab409e1315c9d61c359cb07b06168"
+
 truffle-compile-vyper@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/truffle-compile-vyper/-/truffle-compile-vyper-1.0.1.tgz#3498ee94d5c0322509b7c32b6c8a114e09d1e425"
@@ -12024,6 +12035,13 @@ truffle-contract-schema@^2.0.1:
     crypto-js "^3.1.9-1"
     debug "^3.1.0"
 
+truffle-contract-sources@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/truffle-contract-sources/-/truffle-contract-sources-0.1.1.tgz#9b44925ee9a7dfa7aace0aec8e210af5f6e5d9aa"
+  dependencies:
+    debug "^4.1.0"
+    glob "^7.1.2"
+
 truffle-contract@4.0.0-next.0:
   version "4.0.0-next.0"
   resolved "https://registry.yarnpkg.com/truffle-contract/-/truffle-contract-4.0.0-next.0.tgz#717b5921331ec70ca4f58a3d29ae955db80163fe"
@@ -12048,6 +12066,30 @@ truffle-contract@^2.0.3:
     truffle-contract-schema "^0.0.5"
     web3 "^0.20.1"
 
+truffle-debug-utils@^1.0.8:
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/truffle-debug-utils/-/truffle-debug-utils-1.0.8.tgz#9ac962fbd7a06e09588203b66babaa2b2f897eb6"
+  dependencies:
+    async "2.6.1"
+    debug "^4.1.0"
+    node-dir "0.1.17"
+
+truffle-decode-utils@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/truffle-decode-utils/-/truffle-decode-utils-1.0.1.tgz#f54fe4ad84bf1049ac184e13577862ab76e038bd"
+  dependencies:
+    bn.js "^4.11.8"
+    lodash.clonedeep "^4.5.0"
+    web3 "^1.0.0-beta.37"
+
+truffle-error@^0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/truffle-error/-/truffle-error-0.0.3.tgz#4bf55242e14deee1c7194932709182deff2c97ca"
+
+truffle-expect@^0.0.6:
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/truffle-expect/-/truffle-expect-0.0.6.tgz#dc19aceaa59461fa64a563fa744c45e31277a917"
+
 truffle-init@^1.0.7:
   version "1.0.7"
   resolved "https://registry.yarnpkg.com/truffle-init/-/truffle-init-1.0.7.tgz#c3de57fbddfa77ae93642ae025f41c1157de2ba7"
@@ -12065,6 +12107,22 @@ truffle-provider@^0.1.1:
   dependencies:
     truffle-error "^0.0.3"
     web3 "^1.0.0-beta.37"
+
+truffle-provisioner@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/truffle-provisioner/-/truffle-provisioner-0.1.1.tgz#5a8327d62511ef23c950d3aa862610a7c377e2aa"
+
+truffle-reporters@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/truffle-reporters/-/truffle-reporters-1.0.1.tgz#ee97dccab559b53bd4040d688236b8a2869c4d10"
+  dependencies:
+    node-emoji "^1.8.1"
+    ora "^3.0.0"
+    web3-utils "1.0.0-beta.37"
+
+truffle-solidity-utils@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/truffle-solidity-utils/-/truffle-solidity-utils-1.2.1.tgz#155328c2852248ccc09bb76a9f2ca062fe462afa"
 
 tslib@^1.9.0:
   version "1.9.3"
@@ -12774,7 +12832,31 @@ web3-net@1.0.0-beta.37:
     web3-core-method "1.0.0-beta.37"
     web3-utils "1.0.0-beta.37"
 
-web3-provider-engine@14.0.6, "web3-provider-engine@git+https://github.com/cgewecke/provider-engine.git#web3-one":
+web3-provider-engine@^13.3.2:
+  version "13.8.0"
+  resolved "https://registry.yarnpkg.com/web3-provider-engine/-/web3-provider-engine-13.8.0.tgz#4c7c1ad2af5f1fe10343b8a65495879a2f9c00df"
+  dependencies:
+    async "^2.5.0"
+    clone "^2.0.0"
+    eth-block-tracker "^2.2.2"
+    eth-sig-util "^1.4.2"
+    ethereumjs-block "^1.2.2"
+    ethereumjs-tx "^1.2.0"
+    ethereumjs-util "^5.1.1"
+    ethereumjs-vm "^2.0.2"
+    fetch-ponyfill "^4.0.0"
+    json-rpc-error "^2.0.0"
+    json-stable-stringify "^1.0.1"
+    promise-to-callback "^1.0.0"
+    readable-stream "^2.2.9"
+    request "^2.67.0"
+    semaphore "^1.0.3"
+    solc "^0.4.2"
+    tape "^4.4.0"
+    xhr "^2.2.0"
+    xtend "^4.0.1"
+
+"web3-provider-engine@git+https://github.com/cgewecke/provider-engine.git#web3-one":
   version "14.0.6"
   resolved "git+https://github.com/cgewecke/provider-engine.git#be7d1e895918eb05c7893fc00a7053fe4abb4233"
   dependencies:
@@ -12797,30 +12879,6 @@ web3-provider-engine@14.0.6, "web3-provider-engine@git+https://github.com/cgewec
     semaphore "^1.0.3"
     tape "^4.4.0"
     ws "^5.1.1"
-    xhr "^2.2.0"
-    xtend "^4.0.1"
-
-web3-provider-engine@^13.3.2:
-  version "13.8.0"
-  resolved "https://registry.yarnpkg.com/web3-provider-engine/-/web3-provider-engine-13.8.0.tgz#4c7c1ad2af5f1fe10343b8a65495879a2f9c00df"
-  dependencies:
-    async "^2.5.0"
-    clone "^2.0.0"
-    eth-block-tracker "^2.2.2"
-    eth-sig-util "^1.4.2"
-    ethereumjs-block "^1.2.2"
-    ethereumjs-tx "^1.2.0"
-    ethereumjs-util "^5.1.1"
-    ethereumjs-vm "^2.0.2"
-    fetch-ponyfill "^4.0.0"
-    json-rpc-error "^2.0.0"
-    json-stable-stringify "^1.0.1"
-    promise-to-callback "^1.0.0"
-    readable-stream "^2.2.9"
-    request "^2.67.0"
-    semaphore "^1.0.3"
-    solc "^0.4.2"
-    tape "^4.4.0"
     xhr "^2.2.0"
     xtend "^4.0.1"
 

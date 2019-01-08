@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 var IPC = require("node-ipc").IPC;
-var Ganache = require("@dexon-foundation/");
+var Ganache = require("@dexon-foundation/ganache-core");
 var path = require("path");
 var debug = require("debug");
 

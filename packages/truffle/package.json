@@ -6,6 +6,7 @@
   "dependencies": {
     "@dexon-foundation/dsolc": "0.5.0",
     "app-module-path": "^2.2.0",
+    "cross-env": "^5.2.0",
     "mocha": "^4.1.0",
     "original-require": "1.0.1"
   },
@@ -41,7 +42,7 @@
   "scripts": {
     "prepare": "npm run build",
     "build": "npm run build-cli",
-    "build-cli": "webpack --config ./cli.webpack.config.js",
+    "build-cli": "cross-env NODE_OPTIONS=--max_old_space_size=8192 webpack --config ./cli.webpack.config.js",
     "test": "./scripts/test.sh",
     "publish:byoc": "node ./scripts/prereleaseVersion.js byoc-safe byoc",
     "publish:external-compiler": "node ./scripts/prereleaseVersion.js external-compiler external-compiler",
@@ -68,5 +69,5 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "b207efb3c1409746537293b3e0fc27350029188e"
+  "gitHead": "a2b76842e1ac72443831255d6a5eb05f622bc7f7"
 }
