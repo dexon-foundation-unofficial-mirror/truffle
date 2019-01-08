@@ -1,6 +1,6 @@
 {
   "name": "@dexon-foundation/truffle-config",
-  "version": "1.1.7",
+  "version": "1.1.8",
   "description": "Utility for interacting with truffle.js files",
   "main": "index.js",
   "scripts": {},
@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/trufflesuite/truffle-config#readme",
   "dependencies": {
-    "@dexon-foundation/truffle-provider": "^0.1.7",
+    "@dexon-foundation/truffle-provider": "^0.1.8",
     "configstore": "^4.0.0",
     "find-up": "^2.1.0",
     "lodash": "4.17.10",

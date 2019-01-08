@@ -1,6 +1,6 @@
 {
   "name": "@dexon-foundation/truffle-contract",
-  "version": "4.0.7",
+  "version": "4.0.8",
   "description": "A better contract abstraction for Ethereum (formerly EtherPudding)",
   "main": "index.js",
   "scripts": {
@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/trufflesuite/truffle-contract#readme",
   "dependencies": {
-    "@dexon-foundation/truffle-contract-schema": "^3.0.7",
+    "@dexon-foundation/truffle-contract-schema": "^3.0.8",
     "bignumber.js": "^7.2.1",
     "ethereumjs-util": "^5.2.0",
     "ethjs-abi": "0.1.8",
