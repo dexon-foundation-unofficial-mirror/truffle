@@ -1,6 +1,6 @@
 {
   "name": "@dexon-foundation/truffle-artifactor",
-  "version": "4.0.11",
+  "version": "4.0.12",
   "description": "A contract packager for Ethereum and Javascript",
   "author": "Tim Coulter",
   "main": "./index.js",
@@ -24,8 +24,8 @@
     "web3": "^1.0.0-beta.37"
   },
   "dependencies": {
-    "@dexon-foundation/truffle-contract": "^4.0.11",
-    "@dexon-foundation/truffle-contract-schema": "^3.0.11",
+    "@dexon-foundation/truffle-contract": "^4.0.12",
+    "@dexon-foundation/truffle-contract-schema": "^3.0.12",
     "async": "2.6.1",
     "debug": "^4.1.0",
     "fs-extra": "6.0.1",
