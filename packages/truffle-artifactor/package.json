@@ -14,7 +14,7 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "@dexon-foundation/dsolc": "0.5.0",
+    "@dexon-foundation/dsolc": "^0.5.2",
     "@dexon-foundation/ganache-core": "2.3.1",
     "chai": "4.2.0",
     "mocha": "5.2.0",

@@ -48,9 +48,14 @@ function updatePackages(dryRun = false) {
  **/
 function updatePackage(packageName, packagePath, dev) {
   console.log(`Updating ${packageName}${dev ? " dev " : " "}dependency`);
-  execSync(`npm install solc@latest ${dev ? "--save-dev" : "--save"}`, {
-    cwd: packagePath
-  });
+  execSync(
+    `npm install @dexon-foundation/dsolc@latest ${
+      dev ? "--save-dev" : "--save"
+    }`,
+    {
+      cwd: packagePath
+    }
+  );
   return packageName;
 }
 
