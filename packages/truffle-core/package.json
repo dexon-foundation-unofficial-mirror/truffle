@@ -1,7 +1,7 @@
 {
   "name": "@dexon-foundation/truffle-core",
   "namespace": "consensys",
-  "version": "5.0.13",
+  "version": "5.0.14",
   "description": "Core code for Truffle command line tool",
   "dependencies": {
     "@dexon-foundation/ganache-core": "2.3.1",
@@ -10,7 +10,7 @@
     "@dexon-foundation/truffle-compile": "^4.0.12",
     "@dexon-foundation/truffle-config": "^1.1.11",
     "@dexon-foundation/truffle-contract": "^4.0.12",
-    "@dexon-foundation/truffle-debugger": "^4.1.13",
+    "@dexon-foundation/truffle-debugger": "^4.1.14",
     "@dexon-foundation/truffle-deployer": "^3.0.12",
     "@dexon-foundation/truffle-migrate": "^3.0.12",
     "@dexon-foundation/truffle-provider": "^0.1.11",

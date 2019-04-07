@@ -1,6 +1,6 @@
 {
   "name": "@dexon-foundation/truffle-decoder",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "description": "A library that provides both high and low level decoding of Ethereum contract variables",
   "main": "dist/interface/index.js",
   "types": "lib/interface/index.ts",
