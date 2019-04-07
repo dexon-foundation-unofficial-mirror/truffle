@@ -1,7 +1,7 @@
 {
   "name": "@dexon-foundation/truffle",
   "namespace": "consensys",
-  "version": "5.0.15",
+  "version": "5.0.16",
   "description": "Truffle - Simple development framework for Ethereum",
   "dependencies": {
     "@dexon-foundation/dsolc": "^0.5.2",
