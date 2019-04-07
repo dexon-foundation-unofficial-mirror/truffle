@@ -1,6 +1,6 @@
 {
   "name": "@dexon-foundation/truffle-debugger",
-  "version": "4.1.14",
+  "version": "4.1.15",
   "description": "Core functionality for debugging Solidity files built with Truffle",
   "main": "dist/debugger.js",
   "scripts": {
@@ -22,7 +22,7 @@
   "license": "MIT",
   "dependencies": {
     "@dexon-foundation/truffle-code-utils": "^1.1.13",
-    "@dexon-foundation/truffle-decoder": "^1.0.14",
+    "@dexon-foundation/truffle-decoder": "^1.0.15",
     "bn.js": "^4.11.8",
     "debug": "^4.1.0",
     "fast-levenshtein": "^2.0.6",
