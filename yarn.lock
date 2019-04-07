@@ -80,22 +80,10 @@
     lodash "^4.17.10"
     to-fast-properties "^2.0.0"
 
-"@dexon-foundation/dsolc@0.5.0":
-  version "0.5.0"
-  resolved "https://registry.yarnpkg.com/@dexon-foundation/dsolc/-/dsolc-0.5.0.tgz#b81edb22c8d4ef84140d27ef604fc2f14b1d396c"
-  dependencies:
-    command-exists "^1.2.8"
-    fs-extra "^0.30.0"
-    keccak "^1.0.2"
-    memorystream "^0.3.1"
-    require-from-string "^2.0.0"
-    semver "^5.5.0"
-    tmp "0.0.33"
-    yargs "^11.0.0"
-
-"@dexon-foundation/dsolc@0.5.1":
-  version "0.5.1"
-  resolved "https://registry.yarnpkg.com/@dexon-foundation/dsolc/-/dsolc-0.5.1.tgz#c69fe2858f8e12db581117182a05a2c6b6fc9ef6"
+"@dexon-foundation/dsolc@^0.5.2":
+  version "0.5.2"
+  resolved "https://registry.yarnpkg.com/@dexon-foundation/dsolc/-/dsolc-0.5.2.tgz#1e47977dda5ad63fa50974c0b38976c8ccadb92a"
+  integrity sha512-J4GWCfAra6k/+OLsOX5qmpJ/HZ7wAiEPZ/xGC0KFam85+tdtgevXvma6C19Ejzjsu9wIMRAPds2/8zxtNXF+fQ==
   dependencies:
     command-exists "^1.2.8"
     fs-extra "^0.30.0"
