@@ -33,7 +33,7 @@
     "ethpm-registry": "0.1.0-next.2",
     "fs-extra": "6.0.1",
     "hdkey": "^1.1.0",
-    "lodash": "4.17.10",
+    "lodash": "4.17.19",
     "mkdirp": "^0.5.1",
     "mocha": "5.2.0",
     "node-dir": "0.1.17",
